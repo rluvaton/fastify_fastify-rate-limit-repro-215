@@ -1,0 +1,23 @@
+{
+  "name": "gh-issue-207",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test:local": "node test.js local",
+    "test:redis": "node test.js redis"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "exit-hook": "^2.2.1",
+    "fastify": "3.27.1",
+    "fastify-rate-limit": "5.7.0",
+    "ioredis": "^4.28.5",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.12"
+  }
+}
